@@ -25,6 +25,7 @@ public class MappedProxy implements InvocationHandler {
     }
 
     /**
+     * 调用MappedProxy，时候就会调用invoke()
      * ******该方法就是实现接口的业务逻辑的：相当于mapper接口的实现类
      * @param proxy
      * @param method 就是mapper接口中的方法名
